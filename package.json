@@ -1,0 +1,23 @@
+{
+  "name": "task-flow-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.x.x",
+    "bcryptjs": "^2.x.x",
+    "cors": "^2.x.x",
+    "dotenv": "^16.x.x",
+    "express": "^4.x.x",
+    "jsonwebtoken": "^9.x.x",
+    "zod": "^3.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.x.x",
+    "prisma": "^5.x.x"
+  }
+}
